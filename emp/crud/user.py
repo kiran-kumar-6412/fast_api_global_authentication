@@ -1,7 +1,8 @@
-from .. import models,schemas
+from ..repository import models
+from ..repository import schemas
 from sqlalchemy.orm import Session
 from fastapi import HTTPException,status
-from ..bcrypt import hashpassword
+from ..config.bcrypt import hashpassword
 
 
 def all_users(db:Session):

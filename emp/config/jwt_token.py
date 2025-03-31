@@ -1,7 +1,7 @@
 import jwt
 from jwt.exceptions import InvalidTokenError
 from datetime import timedelta,datetime,timezone
-from . import schemas
+from ..repository import schemas
 
 
 

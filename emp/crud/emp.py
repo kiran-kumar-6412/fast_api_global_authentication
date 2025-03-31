@@ -1,4 +1,5 @@
-from .. import models,schemas
+from ..repository import models
+from ..repository import schemas
 from sqlalchemy.orm import Session
 from fastapi import HTTPException,status
 
